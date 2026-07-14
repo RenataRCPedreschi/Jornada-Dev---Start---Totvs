@@ -1,13 +1,13 @@
 FUNCTION Main ()
     
-    LOCAL cNome:="Renata" 
-    LOCAL cCidade:="SÆo Paulo"
-    LOCAL cCurso:="Harbour ADVPL"
+    LOCAL cNome:="Renata Rabelo" 
+    LOCAL cCidade:="SÆo Paulo/ SP"
+    LOCAL cCurso:="Harbour / ADVPL"
 
     hb_cdpSelect ("PT850")
 
     QOut("==============") 
-    QOut("FICHA DE APRESENTACÇO")
+    QOut("FICHA DE APRESENTA€ÇO")
     QOut("==============") 
     QOut("Nome: "+ CNome) 
     QOut ("Cidade: " + cCidade)
