@@ -1,6 +1,6 @@
 //c: Caractere
-//n: Num‚rico
-//l: L¢gico
+//n: Numerico
+//l: Logico
 //d: Data
 
 FUNCTION Main()
@@ -13,9 +13,10 @@ FUNCTION Main()
    SET DATE FORMAT TO "DD/MM/YYYY" 
 
    QOut("Nome: " + cNome)
-   QOut("Sal rio: " + Str(nSalario,10,2))
-   QOut("Ativo: " + IIF(lAtivo, "Sim", "NÆo"))
-   QOut("Data de admissÆo: " + DToC(dAdmissao))
+   QOut("Salario: " + Str(nSalario,10,2))
+   QOut("Ativo: " + IIF(lAtivo, "Sim", "NNo"))
+   QOut("Data de admissao: " + DToC(dAdmissao))
    QOut("Codigo do Departamento: " + cCodigoDepartamento)
+   
 
 RETURN NIL
