@@ -11,7 +11,7 @@ FUNCTION Main()
       IF nNumero <= 0
          EXIT
       ENDIF
-
+       QOut ("Se você digitar 0 ou número negativo, o programa será encerrado.")
       QOut ("O dobro é:", nNumero * 2)
 
    ENDDO
