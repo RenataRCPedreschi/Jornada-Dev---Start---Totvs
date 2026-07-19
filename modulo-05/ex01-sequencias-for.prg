@@ -22,5 +22,4 @@ FUNCTION Main()
       QOut (nNumero)
    NEXT
 
-
 RETURN NIL
